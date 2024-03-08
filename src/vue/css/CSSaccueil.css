@@ -1,0 +1,62 @@
+#header_accueil{
+    display:none;
+}
+
+#Titremédecin,
+#Titrepatient,
+#Titrerdv,
+#Titrestats {
+    display: none;
+}
+
+#menu{
+    display: flex;
+}
+
+#menu input {
+    background-color: #FFFFFF;
+    border: 0px;
+    margin: auto;
+    padding: 2%;
+    width: 100%;
+    border-radius: 20px;
+    font-size: 200%;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+#menu img {
+    max-width: 60%;
+    height: auto;
+    margin: auto;
+    margin-top: 2%;
+    display: block;
+    margin-bottom: 2%;
+}
+
+#menu a {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 1px solid black;
+    margin-top: 1%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: 80%;
+    box-sizing: border-box;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+#menu a:hover {
+    background-color: #D3D3D3;
+    margin-top: 2%;
+}
+
+#menu a:hover input {
+    background-color: #D3D3D3;
+}
+    
+    

@@ -1,0 +1,88 @@
+#footer a.olalala {
+    display: none;
+}
+
+header {
+    position: fixed;
+}
+
+#Titreaccueil,
+#Titremédecin,
+#Titrepatient,
+#Titrerdv {
+    display: none;
+}
+
+.body {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.body div {
+    width: 50%;
+}
+
+.body div + div {
+    padding-left: 10%;
+    border-left: 1px solid #000;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 1%;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.usagers div div {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+#fv {
+    background-color: #FF6F61;
+}
+
+#hj {
+    background-color: #00CED1;
+}
+
+#fj {
+    background-color: #FFD700;
+}
+
+#hv {
+    background-color: #6A5ACD;
+}
+
+#fa {
+    background-color: #FFA07A;
+}
+
+#ha {
+    background-color: #20B2AA;
+}
+
+.fixed {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 25%;
+}
+
+.medecin {
+    margin-top: 10%;
+}

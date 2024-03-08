@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Kulim+Park&family=Work+Sans:wght@300&display=swap');
+
+* {
+    font-family: 'work sans', sans-serif;
+}
+
+header {
+    background-color: #87CEEB;
+    border-radius: 20px;
+    display: flex;
+    margin: 0.5%;
+    width: 98%;
+}
+
+#logo {
+    max-width: 50%;
+    height: auto;
+    margin: 2%;
+}
+
+header h1 {
+    margin-right: auto;
+    margin-left: 20%;
+    font-size: 300%;
+    font-family: 'work sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#boutons a input{
+    margin: auto;
+    background-color: #87CEEB;
+    border : 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    font-size: 120%;
+    text-decoration: none;
+}
+
+#boutons a :hover {
+    background-color: #6CA6CD;
+}
+
+#boutons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 3%;
+    width: 10%;
+}
+
+.body {
+    max-height: fit-content;
+}
+
+.retourHaut {
+    display: none;
+}
+
+.retourHaut img {
+    position: fixed;
+    top : 2%;
+    right: 2%;
+    max-width: 5%;
+    height: auto;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 300px;
+}
+
+.retourHaut img:hover {
+    background-color: lightgray;
+}
+
+.erreur {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    border-radius: 10px;
+    color: #FF6347;
+    font-size: 150%;
+    font-family: 'consolas', sans-serif;
+}
