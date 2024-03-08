@@ -6,16 +6,20 @@
         include 'common/head.php';
         include 'pages/header.php';
 
-        if ($etat_medecin == 'detail') {
-            include 'pages/detail_medecin.php';
-        } else {
-            if ($etat_medecin == 'modifier') {
+        switch ($etat_medecin) {
+            case 'detail':
+                include 'pages/detail_medecin.php';
+                break;
+            case 'modifier':
                 include 'pages/modifier_medecin.php';
-            } else {
+                break;
+            default:
                 include 'pages/medecins.php';
-            }
+                break;
         }
-    include 'pages/footer.php'; ?>
+        
+        include 'pages/footer.php';
+    ?>
 
 </html>
 

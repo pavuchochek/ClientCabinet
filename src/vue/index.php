@@ -2,7 +2,7 @@
 
 $etat = null;
 
-$etat_medecin = null;
+$etat_medecin = null; // liste, detail, modifier, ajouter, (supprimer?)
 $etat_usager = null;
 $etat_rdv = null;
 
