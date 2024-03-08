@@ -1,4 +1,4 @@
-<div class="partie_rdv">
+<div class="rdv_medecin">
     <div class = "titre2">
         <h1>Liste des rendez-vous</h1>
 
