@@ -1,14 +1,3 @@
-<?php
-    // Démarre la session
-    session_start();
-
-    // Vérifie si l'utilisateur est connecté
-    if (!isset($_SESSION['utilisateur_connecte'])) {
-        // Redirige vers la page de connexion
-        header("Location: login.php");
-        exit(); // Assure que le script s'arrête après la redirection
-    }
-?>
 <!DOCTYPE html>
 <html lang="fr">
     <head>
