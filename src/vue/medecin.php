@@ -4,7 +4,7 @@
         $titre = 'Médecins';
         $css = ['medecin.css'];
         include 'common/head.php';
-        include 'pages/header.php';
+        include 'common/header.php';
 
         switch ($etat_medecin) {
             case 'detail':
@@ -13,12 +13,15 @@
             case 'modifier':
                 include 'pages/modifier_medecin.php';
                 break;
+            case 'ajouter':
+                include 'pages/ajouter_medecin.php';
+                break;
             default:
                 include 'pages/medecins.php';
                 break;
         }
         
-        include 'pages/footer.php';
+        include 'common/footer.php';
     ?>
 
 </html>
