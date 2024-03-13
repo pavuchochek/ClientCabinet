@@ -10,8 +10,8 @@
     <h1 id='Titrestats'>Statistiques</h1>
     <div id="boutons">
         <a href="index.php" id="header_accueil"><input type="button" value="Accueil"></a>
-        <a href="medecins.php" id="header_medecin"><input type="button" value="Médecins"></a>
-        <a href="usagers.php" id="header_usager"><input type="button" value="Patients"></a>
+        <a href="index.php?etat=medecin" id="header_medecin"><input type="button" value="Médecins"></a>
+        <a href="usager.php" id="header_usager"><input type="button" value="Patients"></a>
         <a href="rdv.php?usagerFilter=&medecinFilter=" id="header_rdv"><input type="button" value="Rendez-vous"></a>
     </div>
     <a href="#" class="retourHaut">

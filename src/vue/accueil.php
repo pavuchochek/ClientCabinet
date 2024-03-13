@@ -1,19 +1,15 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="utf-8" />
-        <title>Accueil - Cabinet Médical</title>
-        <link rel="stylesheet" href="css/CSSaccueil.css">
-        <link rel="stylesheet" href="css/CSSheader.css">
-        <link rel="stylesheet" href="css/CSSfooter.css">
-        <link rel="icon" href="img/logo.png">
-    </head>
-
-    <?php include 'common/header.php'; ?>
+    <?php
+        $titre = "Accueil";
+        $css = ["CSSaccueil.css"];
+        include 'common/head.php';
+        include 'common/header.php';
+    ?>
 
     <body>
         <div id="menu" class="body">
-            <a href="medecin.php">
+            <a href="index.php?etat=medecin">
                 <img src="img/icone_menu_medecin.png" alt="logo">
                 <input type="button" value="Médecins">
             </a>
@@ -33,6 +29,7 @@
     </body>
 
     <?php include 'common/footer.php'; ?>
+
     <script>
         document.addEventListener('DOMContentLoaded', flecheHaut);
     </script>
