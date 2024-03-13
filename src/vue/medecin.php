@@ -6,6 +6,12 @@
         include 'common/head.php';
         include 'common/header.php';
 
+        if (isset($_GET['etat_medecin'])) {
+            $etat_medecin = $_GET['etat_medecin'];
+        } else {
+            $etat_medecin = 'liste';
+        }
+
         switch ($etat_medecin) {
             case 'detail':
                 include 'pages/detail_medecin.php';
@@ -16,8 +22,11 @@
             case 'ajouter':
                 include 'pages/ajouter_medecin.php';
                 break;
-            default:
+            case 'liste':
                 include 'pages/medecins.php';
+                break;
+            default:
+                include '404.php';
                 break;
         }
         
