@@ -1,6 +1,10 @@
 <?php
 
-$etat = null;
+if (isset($_GET['etat'])) {
+    $etat = $_GET['etat'];
+} else {
+    $etat = 'accueil';
+}
 
 $etat_medecin = null; // liste, detail, modifier, ajouter, (supprimer?)
 $etat_usager = null;
@@ -19,8 +23,11 @@ switch ($etat) {
     case 'statistiques':
         include 'statistiques.php';
         break;
-    default:
+    case 'accueil':
         include 'accueil.php';
+        break;
+    default:
+        include '404.php';
         break;
 }
 
