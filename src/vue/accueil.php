@@ -9,15 +9,15 @@
         <link rel="icon" href="img/logo.png">
     </head>
 
-    <?php include '../includes/header.php'; ?>
+    <?php include 'common/header.php'; ?>
 
     <body>
         <div id="menu" class="body">
-            <a href="medecins.php">
+            <a href="medecin.php">
                 <img src="img/icone_menu_medecin.png" alt="logo">
                 <input type="button" value="Médecins">
             </a>
-            <a href="usagers.php">
+            <a href="usager.php">
                 <img src="img/icone_menu_usager2.png" alt="logo">
                 <input type="button" value="Patients">
             </a>
@@ -32,7 +32,7 @@
         </div>
     </body>
 
-    <?php include '../includes/footer.php'; ?>
+    <?php include 'common/footer.php'; ?>
     <script>
         document.addEventListener('DOMContentLoaded', flecheHaut);
     </script>
