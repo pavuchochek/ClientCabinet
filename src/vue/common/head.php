@@ -14,6 +14,7 @@ echo'
         <link rel="stylesheet" href="css/CSSheader.css">
         <link rel="stylesheet" href="css/CSSfooter.css">
         <link rel="icon" href="img/logo.png">
+        
     </head>';
 
 ?>
